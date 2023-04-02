@@ -1,0 +1,4 @@
+*.so.* filter=lfs diff=lfs merge=lfs -text
+*.so.*[[:space:]]*.1.so filter=lfs diff=lfs merge=lfs -text
+oraclelib/lib filter=lfs diff=lfs merge=lfs -text
+oraclelib/nodejs filter=lfs diff=lfs merge=lfs -text
